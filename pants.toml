@@ -1,0 +1,15 @@
+[GLOBAL]
+pants_version = "2.17.1rc2"
+backend_packages = [
+   "pants.backend.experimental.javascript",
+]
+
+[source]
+root_patterns = [
+   "lib/",
+   "app/",
+]
+
+
+[nodejs]
+package_managers = {npm= "10.1.0"}

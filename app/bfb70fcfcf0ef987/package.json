@@ -1,0 +1,11 @@
+{
+  "name": "bfb70fcfcf0ef987",
+  "version": "1.0.0",
+  "scripts": {
+    "package": "parcel build ./src/index.html --public-url ./ --dist-dir ./dist"
+  },
+  "dependencies": {
+    "parcel": "^2.10.2",
+    "46f3984c15cda1c6": "file://lib/46f3984c15cda1c6"
+  }
+}
